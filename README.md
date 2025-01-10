@@ -19,7 +19,7 @@ El proyecto está organizado en los siguientes directorios y archivos:
 - **saltos.html**: Página con ejemplos de saltos de línea y párrafos.
 - **tablas.html**: Página que explora el uso de tablas en HTML.
 - **titulos.html**: Página que muestra diferentes niveles de títulos en HTML.
-- **vidaudgid.html**: Página que podría incluir contenido relacionado con multimedia, como videos o audios.
+- **vidaudgif.html**: Página que podría incluir contenido relacionado con multimedia, como videos o audios.
 
 ## Propósito del Proyecto
 
