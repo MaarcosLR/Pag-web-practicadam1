@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="/css/Css1.css">
+    <script>
+        window.onload = function () {
+          alert("¡AQUÍ DIFERENTES TABLAS COMO EJEMPLO!");
+        };
+      </script>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="textomenu"><strong>PrácticaWeb</strong></div>
+            <nav>
+                <a class='pags' href='/'>Inicio</a>
+                <a class='pags' href='/actividades'>Actividades</a>
+            </nav>
+        </div>
+    </header>
+<div class="tablaspract">
+    <h1>Tablas</h1>
+    <table border="1" class="tabla1">
+        <tr>
+            <th>Número</th>
+            <th>Otro número</th>
+            <th>Otro número 2</th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+
+        </tr>
+        <br>
+    </table>
+    <br>
+    <table border="1" class="tabla2">
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td colspan="2">Celda cs2</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td colspan="3">Celda cs3</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td colspan="4">Celda cs4</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" class="tabla3">
+        <tr>
+            <td>Celda</td>
+            <td rowspan="2">Celda rs2</td>
+            <td rowspan="3">Celda rs3</td>
+            <td rowspan="4">Celda rs4</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" style="border-collapse: collapse;"  class="tabla4">
+        <tr align="center">
+            <td rowspan="3" colspan="2" bgcolor="beige"></td>
+            <td colspan="6" bgcolor="beige">Ventas coches</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="beige">1 trimestre</td>
+            <td colspan="2" bgcolor="beige">2 trimestre</td>
+            <td colspan="2" bgcolor="beige">3 trimestre</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="beige">Nacionales</td>
+            <td bgcolor="beige">Importados</td>
+            <td bgcolor="beige">Nacionales</td>
+            <td bgcolor="beige">Importados</td>
+            <td bgcolor="beige">Nacionales</td>
+            <td bgcolor="beige">Importados</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="pink">Año 2014</td>
+            <td bgcolor="pink">341</td>
+            <td bgcolor="pink">561</td>
+            <td bgcolor="pink">234</td>
+            <td bgcolor="pink">129</td>
+            <td bgcolor="pink">340</td>
+            <td bgcolor="pink">261</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="pink">Año 2015</td>
+            <td bgcolor="pink">341</td>
+            <td bgcolor="pink">561</td>
+            <td bgcolor="pink">234</td>
+            <td bgcolor="pink">129</td>
+            <td bgcolor="pink">340</td>
+            <td bgcolor="pink">261</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="pink">Año 2016</td>
+            <td bgcolor="pink">341</td>
+            <td bgcolor="pink">561</td>
+            <td bgcolor="pink">234</td>
+            <td bgcolor="pink">129</td>
+            <td bgcolor="pink">340</td>
+            <td bgcolor="pink">261</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="pink">Año 2017</td>
+            <td bgcolor="pink">741</td>
+            <td bgcolor="pink">263</td>
+            <td bgcolor="pink">721</td>
+            <td bgcolor="pink">841</td>
+            <td bgcolor="pink">590</td>
+            <td bgcolor="pink">251</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="yellow">Total</td>
+            <td bgcolor="yellow">1082</td>
+            <td bgcolor="yellow">824</td>
+            <td bgcolor="yellow">955</td>
+            <td bgcolor="yellow">970</td>
+            <td bgcolor="yellow">930</td>
+            <td bgcolor="yellow">512</td>
+        </tr>
+    </table>
+    <br>
+</div>
+</body>
+</html>

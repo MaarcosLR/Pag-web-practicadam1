@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/Css1.css">
+    <script>
+        window.onload = function () {
+          alert("¡ESPERO QUE TE HAYA GUSTADO MI PÁGINA!");
+        };
+      </script>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="textomenu"><strong>PrácticaWeb</strong></div>
+            <nav>
+                <a class='pags' href='/'>Inicio</a>
+                <a class='pags' href='/actividades'>Actividades</a>
+            </nav>
+        </div>
+    </header>
+        <div class="form">
+            <form action="form.html" method="get">
+                <p>Nombre: &nbsp;<input type="text" name="nombre" required></p>
+                <p>Apellido: &nbsp;<input type="text" name="apellido" required></p>   
+                <p>¿Estética del 1 al 10?</p> 
+                <p><input type="text" name="estetica" required></p>
+                <p>¿Funcionalidad del 1 al 10?</p> 
+                <p><input type="text" name="estetica" required></p>
+                <p>¿Que añadirías?</p> 
+                <textarea name="textarea" rows="10" cols="50"></textarea>
+                <p><input type="submit" name="enviar"></p> 
+                <p><input type="reset" name="reset"></p> 
+            </form>
+        </div>
+</body>
+</html>

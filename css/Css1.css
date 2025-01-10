@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/assets/breluv06gbc31.png");
+    background-color: #cccccc;
+}
+.textomenu{
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pags{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+nav {
+    float: inline-end;
+    margin-top: -18px;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.subtitulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.sugerencia{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.container {
+    text-align: center;
+    margin-top: 50px
+  }
+.boton-grande {
+    padding: 15px 30px;
+    font-size: 28px;
+    background-color: #035388;
+    color: #fff;
+    border-radius: 5px;
+    align-self: center;
+}
+.boton-grande:hover {
+    background-color: #053d61;
+}
+
+.containertit{
+    background-color: #333;
+    margin: 10px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.practica{
+    background-color: #333;
+    margin: 10px;
+    padding: 1px;
+    align-items: center;
+}
+.practica1{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.lista{
+    background-color: #333;
+    margin: 10px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.listastxt{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: white;
+    margin-left: 10px;
+}
+.tabla1{
+    background-color: white;
+    margin-left: 10px;
+}
+.tabla2{
+    background-color: white;
+    margin-left: 10px;
+}
+.tabla3{
+    background-color: white;
+    margin-left: 10px;
+}
+.tabla4{
+    background-color: white;
+    margin-left: 10px;
+}
+.tablaspract{
+    background-color: #333;
+    margin: 10px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.multimmedia{
+    background-color: #333;
+    margin: 10px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.gif{
+    width: 200px;
+}
+.img{
+    width: 300px;
+}
+
+form{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
